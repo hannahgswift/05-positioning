@@ -5,8 +5,50 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 
 
+$project-white: #fff;
+$projectlightgray: #d3d3d3;
+$projectgreen: #71C671;
+$projectblue: #009ACD;
+
+$projectfontsize: 2rem;
+
+
 .container {
   display: inline-block;
+  position: absolute;
+  border: 0.3rem solid $projectlightgray;
+  border-radius: 0.5rem;
+  padding: 3rem;
+
+}
+
+.lesson {
+  color: $projectgreen;
+}
+
+.CSS {
+  color: $projectlightgray;
+}
+
+.lesson, .CSS {
+  font-size: $projectfontsize;
+  font-weight: bold;
+}
+
+.lessonlist {
+  text-decoration: underline;
+  li {
+    color: $projectblue;
+  }
+}
+
+.number {
   position: relative;
-  border: 0.3rem solid gray;
+  display: inline-block;
+  color: $project-white;
+  background: $projectlightgray;
+  border-radius: 10rem;
+  padding: 1rem;
+  right: -12rem;
+  top: -20rem;
 }
