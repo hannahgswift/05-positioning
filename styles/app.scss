@@ -6,20 +6,28 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 
 $project-white: #fff;
+$projectgray: #808080;
 $projectlightgray: #d3d3d3;
 $projectgreen: #71C671;
 $projectblue: #009ACD;
-
 $projectfontsize: 2rem;
 
 
 .container {
   display: inline-block;
-  position: absolute;
+  position: relative;
+
+  // top: 10rem
+  // left: 10rem;
+
   border: 0.3rem solid $projectlightgray;
   border-radius: 0.5rem;
-  padding: 3rem;
+  padding: 2rem;
+}
 
+.container i {
+  color: $projectlightgray;
+  font-size: 2rem;
 }
 
 .lesson {
@@ -27,7 +35,7 @@ $projectfontsize: 2rem;
 }
 
 .CSS {
-  color: $projectlightgray;
+  color: $projectgray;
 }
 
 .lesson, .CSS {
@@ -47,8 +55,8 @@ $projectfontsize: 2rem;
   display: inline-block;
   color: $project-white;
   background: $projectlightgray;
-  border-radius: 10rem;
+  border-radius: 100%;
   padding: 1rem;
-  right: -12rem;
+  right: -8rem;
   top: -20rem;
 }
