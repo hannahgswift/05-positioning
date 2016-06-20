@@ -14,11 +14,10 @@ $projectfontsize: 2rem;
 
 
 .container {
-  display: inline-block;
-  position: relative;
+  height: 30rem;
+  width: 20rem;
+  margin: 2rem auto;
 
-  // top: 10rem
-  // left: 10rem;
 
   border: 0.3rem solid $projectlightgray;
   border-radius: 0.5rem;
@@ -28,6 +27,9 @@ $projectfontsize: 2rem;
 .container i {
   color: $projectlightgray;
   font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
 }
 
 .lesson {
@@ -36,6 +38,7 @@ $projectfontsize: 2rem;
 
 .CSS {
   color: $projectgray;
+  text-transform: uppercase;
 }
 
 .lesson, .CSS {
@@ -50,13 +53,14 @@ $projectfontsize: 2rem;
   }
 }
 
-.number {
-  position: relative;
-  display: inline-block;
-  color: $project-white;
-  background: $projectlightgray;
-  border-radius: 100%;
-  padding: 1rem;
-  right: -8rem;
-  top: -20rem;
-}
+// .number {
+//   position: relative;
+//   display: inline-block;
+//   color: $project-white;
+//   background: $projectlightgray;
+//   border-radius: 100%;
+//   padding: 1rem;
+//   right: -15rem;
+//   top: -22rem;
+//   font-size: 3rem;
+// }
