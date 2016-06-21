@@ -19,7 +19,7 @@ $projectfontsize: 2rem;
   margin: 2rem auto;
 
 
-  border: 0.3rem solid $projectlightgray;
+  border: 0.15rem solid $projectlightgray;
   border-radius: 0.5rem;
   padding: 2rem;
 }
@@ -53,12 +53,25 @@ $projectfontsize: 2rem;
   }
 }
 
+.circle {
+  position: relative;
+	width: 6.25rem;
+	height: 6.25rem;
+	background: $projectlightgray;
+	border-radius: 3.125rem;
+  transform: translate(13.6rem, -20rem);
+}
+
+.circle p {
+  position: relative;
+  color: $project-white;
+  font-size: 3rem;
+  transform: translate(2.3rem, 1.3rem);
+}
+
 // .number {
 //   position: relative;
-//   display: inline-block;
 //   color: $project-white;
-//   background: $projectlightgray;
-//   border-radius: 100%;
 //   padding: 1rem;
 //   right: -15rem;
 //   top: -22rem;
