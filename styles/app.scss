@@ -3,6 +3,7 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'container';
 
 
 $project-white: #fff;
@@ -13,16 +14,16 @@ $projectblue: #009ACD;
 $projectfontsize: 2rem;
 
 
-.container {
-  height: 30rem;
-  width: 20rem;
-  margin: 2rem auto;
-
-
-  border: 0.15rem solid $projectlightgray;
-  border-radius: 0.5rem;
-  padding: 2rem;
-}
+// .container {
+//   height: 30rem;
+//   width: 20rem;
+//   margin: 2rem auto;
+//
+//
+//   border: 0.15rem solid $projectlightgray;
+//   border-radius: 0.5rem;
+//   padding: 2rem;
+// }
 
 .container i {
   color: $projectlightgray;
@@ -48,6 +49,7 @@ $projectfontsize: 2rem;
 
 .lessonlist {
   text-decoration: underline;
+  list-style: square;
   li {
     color: $projectblue;
   }
@@ -68,12 +70,3 @@ $projectfontsize: 2rem;
   font-size: 3rem;
   transform: translate(2.3rem, 1.3rem);
 }
-
-// .number {
-//   position: relative;
-//   color: $project-white;
-//   padding: 1rem;
-//   right: -15rem;
-//   top: -22rem;
-//   font-size: 3rem;
-// }
