@@ -14,16 +14,16 @@ $projectblue: #009ACD;
 $projectfontsize: 2rem;
 
 
-// .container {
-//   height: 30rem;
-//   width: 20rem;
-//   margin: 2rem auto;
-//
-//
-//   border: 0.15rem solid $projectlightgray;
-//   border-radius: 0.5rem;
-//   padding: 2rem;
-// }
+.container {
+  height: 30rem;
+  width: 20rem;
+  margin: 2rem auto;
+
+
+  border: 0.15rem solid $projectlightgray;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
 
 .container i {
   color: $projectlightgray;
@@ -68,5 +68,7 @@ $projectfontsize: 2rem;
   position: absolute;
   color: $project-white;
   font-size: 3rem;
-  transform: translate(2.3rem, -1.7rem);
+  top: -1.5rem;
+  right: 2.35rem;
+  // transform: translate(2.3rem, -1.7rem);
 }
