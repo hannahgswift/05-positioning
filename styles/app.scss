@@ -15,6 +15,7 @@ $projectfontsize: 2rem;
 
 
 .container {
+  position: relative;
   height: 30rem;
   width: 20rem;
   margin: 2rem auto;
@@ -56,19 +57,18 @@ $projectfontsize: 2rem;
 }
 
 .circle {
+  margin: 0;
   position: absolute;
-	width: 6.25rem;
-	height: 6.25rem;
+	width: 2em;
+	height: 2em;
 	background: $projectlightgray;
 	border-radius: 3.125rem;
-  transform: translate(13.6rem, -20rem);
-}
+  top: 7.5rem;
+  right: -2.6rem;
 
-.circle p {
-  position: absolute;
-  color: $project-white;
   font-size: 3rem;
-  top: -1.5rem;
-  right: 2.35rem;
-  // transform: translate(2.3rem, -1.7rem);
+  line-height: 2em;
+  color: $project-white;
+  text-align: center;
+
 }
