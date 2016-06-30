@@ -1,6 +1,74 @@
-// @import 'yoga';
-// @import 'normalize';
+@import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'container';
+
+
+$project-white: #fff;
+$projectgray: #808080;
+$projectlightgray: #d3d3d3;
+$projectgreen: #71C671;
+$projectblue: #009ACD;
+$projectfontsize: 2rem;
+
+
+.container {
+  position: relative;
+  height: 30rem;
+  width: 20rem;
+  margin: 2rem auto;
+
+
+  border: 0.15rem solid $projectlightgray;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.container i {
+  color: $projectlightgray;
+  font-size: 2rem;
+  display: inline-block;
+  // position: relative;
+  top: -1rem;
+}
+
+.lesson {
+  color: $projectgreen;
+}
+
+.CSS {
+  color: $projectgray;
+  text-transform: uppercase;
+}
+
+.lesson, .CSS {
+  font-size: $projectfontsize;
+  font-weight: bold;
+}
+
+.lessonlist {
+  text-decoration: underline;
+  list-style: square;
+  li {
+    color: $projectblue;
+  }
+}
+
+.circle {
+  margin: 0;
+  position: absolute;
+	width: 2em;
+	height: 2em;
+	background: $projectlightgray;
+	border-radius: 3.125rem;
+  top: 7.5rem;
+  right: -2.6rem;
+
+  font-size: 3rem;
+  line-height: 2em;
+  color: $project-white;
+  text-align: center;
+
+}
